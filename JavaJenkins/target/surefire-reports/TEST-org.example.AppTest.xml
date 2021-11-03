@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.AppTest" time="0.043" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.AppTest" time="0.046" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="E:\Software\HBT\IntegradorMIDAS\java\JavaJenkins\target\test-classes;E:\Software\HBT\IntegradorMIDAS\java\JavaJenkins\target\classes;C:\Users\andyb\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\andyb\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="E:\Software\IngSoft\NumeroPar\javatest\JavaJenkins\target\test-classes;E:\Software\IngSoft\NumeroPar\javatest\JavaJenkins\target\classes;C:\Users\andyb\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\andyb\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="E:\Programs\java\jdks\openjdk17\bin"/>
-    <property name="sun.java.command" value="C:\Users\andyb\AppData\Local\Temp\surefire18446052602218228684\surefirebooter17536072900675294389.jar C:\Users\andyb\AppData\Local\Temp\surefire18446052602218228684 2021-11-03T12-14-00_082-jvmRun1 surefire17457188014631037774tmp surefire_07162684711684551928tmp"/>
+    <property name="sun.java.command" value="C:\Users\andyb\AppData\Local\Temp\surefire17584719121652193434\surefirebooter139095579640599767.jar C:\Users\andyb\AppData\Local\Temp\surefire17584719121652193434 2021-11-03T14-20-59_766-jvmRun1 surefire7792070064608743047tmp surefire_015916348504405322066tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="E:\Software\HBT\IntegradorMIDAS\java\JavaJenkins\target\test-classes;E:\Software\HBT\IntegradorMIDAS\java\JavaJenkins\target\classes;C:\Users\andyb\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\andyb\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="E:\Software\IngSoft\NumeroPar\javatest\JavaJenkins\target\test-classes;E:\Software\IngSoft\NumeroPar\javatest\JavaJenkins\target\classes;C:\Users\andyb\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\andyb\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\andyb"/>
     <property name="user.language" value="en"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2021-09-14"/>
     <property name="java.home" value="E:\Programs\java\jdks\openjdk17"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="E:\Software\HBT\IntegradorMIDAS\java\JavaJenkins"/>
+    <property name="basedir" value="E:\Software\IngSoft\NumeroPar\javatest\JavaJenkins"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\andyb\AppData\Local\Temp\surefire18446052602218228684\surefirebooter17536072900675294389.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\andyb\AppData\Local\Temp\surefire17584719121652193434\surefirebooter139095579640599767.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17+35-2724"/>
@@ -45,7 +45,7 @@
     <property name="java.io.tmpdir" value="C:\Users\andyb\AppData\Local\Temp\"/>
     <property name="idea.version" value="2021.2.2"/>
     <property name="java.version" value="17"/>
-    <property name="user.dir" value="E:\Software\HBT\IntegradorMIDAS\java\JavaJenkins"/>
+    <property name="user.dir" value="E:\Software\IngSoft\NumeroPar\javatest\JavaJenkins"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -57,6 +57,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="validarSiEspar" classname="org.example.AppTest" time="0.002"/>
+  <testcase name="validarSiEspar" classname="org.example.AppTest" time="0.003"/>
   <testcase name="validarSiEsImpar" classname="org.example.AppTest" time="0"/>
 </testsuite>
