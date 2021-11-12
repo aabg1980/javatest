@@ -64,4 +64,10 @@ public class AppTest
 
 
     }
+
+    @Test
+    public void validarPotencia()
+    {
+        assertTrue(Calculadora.potencia(2, 3) == 8);
+    }
 }
