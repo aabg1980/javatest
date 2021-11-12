@@ -27,5 +27,6 @@ public class App
         {
             System.out.println("No se puede dividir por cero" + e.getMessage());
         }
+        System.out.println("Calculadora  " + Calculadora.potencia(2,2));
     }
 }
