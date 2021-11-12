@@ -68,6 +68,6 @@ public class AppTest
     @Test
     public void validarPotencia()
     {
-        assertEquals(Calculadora.potencia(2, 3) , 8);
+        assertEquals(Calculadora.potencia(2, 3) , 10);
     }
 }
