@@ -1,11 +1,10 @@
 package org.example;
 
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
-
 import org.example.calculadora.Calculadora;
 import org.example.numeropar.NumeroPar;
 import org.junit.Test;
+
+import static org.junit.Assert.*;
 
 /**
  * Unit test for simple App.
@@ -30,19 +29,19 @@ public class AppTest
     @Test
     public void validarSuma()
     {
-        assertTrue(Calculadora.sumar(10, 20) == 30);
+        assertEquals(Calculadora.sumar(10, 20) , 30);
     }
 
     @Test
     public void validarResta()
     {
-        assertTrue(Calculadora.restar(10, 8) == 2);
+        assertEquals(Calculadora.restar(10, 8) , 2);
     }
 
     @Test
     public void validarMultiplicacion()
     {
-        assertTrue(Calculadora.multiplicar(2, 2) == 4);
+        assertEquals(Calculadora.multiplicar(2, 2) , 4);
     }
 
 
@@ -52,6 +51,7 @@ public class AppTest
         assertTrue(Calculadora.dividir(4, 2) == 2);
     }
 
+    /*
     @Test
     public void validarDivisionPorCero()
     {
@@ -63,11 +63,11 @@ public class AppTest
         }
 
 
-    }
+    }*/
 
     @Test
     public void validarPotencia()
     {
-        assertTrue(Calculadora.potencia(2, 3) == 8);
+        assertEquals(Calculadora.potencia(2, 3) , 8);
     }
 }
