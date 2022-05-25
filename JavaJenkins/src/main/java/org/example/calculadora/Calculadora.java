@@ -3,7 +3,7 @@ package org.example.calculadora;
 public class Calculadora {
 
     public static int sumar(int a, int b) {
-        return a + b;
+        return a + b + 1;
     }
 
     public static int restar(int a, int b) {
