@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.AppTest" time="0.048" tests="8" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.AppTest" time="0.042" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="D:\Programas\Java\jdk\openjdk-11+28_windows-x64_bin\jdk-11\bin"/>
-    <property name="sun.java.command" value="C:\Users\andyb\AppData\Local\Temp\surefire1534828554718061343\surefirebooter8592818727351880981.jar C:\Users\andyb\AppData\Local\Temp\surefire1534828554718061343 2022-05-25T08-28-15_808-jvmRun1 surefire79243746276732272tmp surefire_012296781983281928817tmp"/>
+    <property name="sun.java.command" value="C:\Users\andyb\AppData\Local\Temp\surefire13423573934034645367\surefirebooter7842600814938228731.jar C:\Users\andyb\AppData\Local\Temp\surefire13423573934034645367 2022-05-25T08-52-33_795-jvmRun1 surefire5961679071356342897tmp surefire_010658357533465576611tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Documentos\javeriana\javatest\JavaJenkins\target\test-classes;D:\Documentos\javeriana\javatest\JavaJenkins\target\classes;C:\Users\andyb\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\andyb\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\andyb\AppData\Local\Temp\surefire1534828554718061343\surefirebooter8592818727351880981.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\andyb\AppData\Local\Temp\surefire13423573934034645367\surefirebooter7842600814938228731.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11+28"/>
@@ -61,16 +61,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="validarSiEspar" classname="org.example.AppTest" time="0.009"/>
-  <testcase name="validarDivisionPorCero" classname="org.example.AppTest" time="0.001"/>
+  <testcase name="validarSiEspar" classname="org.example.AppTest" time="0.005"/>
+  <testcase name="validarDivisionPorCero" classname="org.example.AppTest" time="0"/>
   <testcase name="validarDivision" classname="org.example.AppTest" time="0"/>
-  <testcase name="validarSuma" classname="org.example.AppTest" time="0.006">
-    <failure message="expected:&lt;31&gt; but was:&lt;30&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<31> but was:<30>
-	at org.example.AppTest.validarSuma(AppTest.java:32)
-]]></failure>
-  </testcase>
-  <testcase name="validarPotencia" classname="org.example.AppTest" time="0"/>
-  <testcase name="validarMultiplicacion" classname="org.example.AppTest" time="0.001"/>
+  <testcase name="validarSuma" classname="org.example.AppTest" time="0"/>
+  <testcase name="validarPotencia" classname="org.example.AppTest" time="0.001"/>
+  <testcase name="validarMultiplicacion" classname="org.example.AppTest" time="0"/>
   <testcase name="validarSiEsImpar" classname="org.example.AppTest" time="0"/>
   <testcase name="validarResta" classname="org.example.AppTest" time="0"/>
 </testsuite>
