@@ -51,7 +51,7 @@ public class AppTest
         assertTrue(Calculadora.dividir(4, 2) == 2);
     }
 
-    /*
+
     @Test
     public void validarDivisionPorCero()
     {
@@ -63,7 +63,7 @@ public class AppTest
         }
 
 
-    }*/
+    }
 
     @Test
     public void validarPotencia()
